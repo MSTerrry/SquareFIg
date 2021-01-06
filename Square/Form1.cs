@@ -93,5 +93,10 @@ namespace Square
             Controls.Remove(Controls.Find("PointNumber", true).Last());
             numberPoints--;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

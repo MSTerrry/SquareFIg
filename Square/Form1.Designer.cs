@@ -136,7 +136,8 @@ namespace Square
             this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.ClearButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SquareCalculator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
